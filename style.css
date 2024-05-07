@@ -1,0 +1,50 @@
+body{
+    color: aliceblue;
+    background-image: url(./assests/stopwatch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+#heading{
+     display: flex;
+     justify-content: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 60px;
+     padding-top: 8%;
+}
+button{
+    color: black;
+    font-size: 25px;
+    background-color: rgb(239, 232, 11);
+    height: 60px;
+    border-radius: 20px;
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(239, 232, 11);
+    border: 0;
+    box-shadow: 0px 0px 20px rgb(239, 232, 11);
+}
+h1{
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+}
+h2{
+    margin: 15px;
+    color: aliceblue;
+}
+#min {
+    font-size: 60px;
+}
+#seconds {
+    font-size: 60px;
+}
+#ms {
+    font-size: 60px;
+}
